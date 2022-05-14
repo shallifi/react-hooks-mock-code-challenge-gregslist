@@ -7,7 +7,7 @@ function Search({ onSearch }) {
   function handleSubmit(e) {
     e.preventDefault();
     ///submit controlled values
-    setSearch(search) ;
+    onSearch(search) ;
   }
 
   return (
